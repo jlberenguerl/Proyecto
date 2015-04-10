@@ -1,5 +1,5 @@
 
- * Autores: 
+ /* Autores: 
  * Jose Luis Berenguer. C.I: 20.982.443
  * Felicia Jardim. 	C.I: 21.480.129
  */ 
@@ -11,7 +11,7 @@
 #include <string>
 #include <list> 
 
- using namespace std; // Ojo
+using namespace std;
 
 
 class Element
