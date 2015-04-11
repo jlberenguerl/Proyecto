@@ -22,6 +22,7 @@ class Element
 		
 	public:
 		///-------------Constructores--------------///
+		Element();
 		Element(const string name,std::list<string> l , string inner);	
 		Element(const Element &e); // Constructor copia
 		
