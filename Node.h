@@ -17,6 +17,7 @@ class Node
 		
 	public:
 		///-------------Constructores--------------///
+		Node();
 		Node(const Element x):e(x),firstChild(NULL),nextSibling(NULL){};
 		Node(const Element x,Node* const hi,Node* const hd):e(x),firstChild(hi),nextSibling(hd){};
 		Node(const Node &n); // Constructor copia
